@@ -15,9 +15,10 @@ export default function TodoItems({ items, onDelete }: TodoItemsProps) {
       {items.map((text, index) => (
         <li key={index} className={styles.item}>
           <span className={styles.text}>{text}</span>
-          <button className={styles.delete} onClick={() => onDelete(index)}>
-            ×
-          </button>
+          <button
+            className={styles.delete}
+            onClick={() => onDelete(index)}
+          ></button>
         </li>
       ))}
     </ul>

@@ -10,9 +10,9 @@
   align-items: center;
   gap: 8px;
   padding: 8px 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #7b7b7b;
   border-radius: 6px;
-  background: #fafafa;
+  background: #ffffff;
 }
 
 .checkboxLabel {}
@@ -24,11 +24,12 @@
 
 .text {
   text-align: left;
+  color: black;
 }
 
 .textDone {
   text-align: left;
-  color: #777;
+  color: #000000;
   text-decoration: line-through;
 }
 
@@ -37,12 +38,13 @@
   height: 28px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  background: #eee;
+  background: #cf0101;
+  margin-left: 100px;
 }
 
 .empty {
   padding: 8px 0;
-  color: #666;
+  color: #3d3d3d;
 }
 
 
