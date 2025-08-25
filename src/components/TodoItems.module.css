@@ -1,0 +1,48 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 24px 1fr auto;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.checkboxLabel {}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.text {
+  text-align: left;
+}
+
+.textDone {
+  text-align: left;
+  color: #777;
+  text-decoration: line-through;
+}
+
+.delete {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #eee;
+}
+
+.empty {
+  padding: 8px 0;
+  color: #666;
+}
+
+
