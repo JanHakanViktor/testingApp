@@ -18,6 +18,7 @@ export default function TodoItems({ items, onDelete }: TodoItemsProps) {
           <button
             className={styles.delete}
             onClick={() => onDelete(index)}
+            aria-label={`Delete ${text}`}
           ></button>
         </li>
       ))}
