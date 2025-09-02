@@ -1,4 +1,4 @@
-import CounterButton from "../components/CounterButton";
+import CounterButton from "./components/CounterButton";
 
 function App() {
   return (

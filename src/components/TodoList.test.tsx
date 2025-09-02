@@ -1,7 +1,7 @@
+import "@testing-library/jest-dom";
 import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import TodoList from "./TodoList";
-import "@testing-library/jest-dom";
 
 describe("TodoList", () => {
   it("renders correctly", () => {
