@@ -8,7 +8,6 @@ export default function TodoList() {
 
   function addTodo(text: string) {
     const trimmed = text.trim();
-    if (!trimmed) return;
     setTodos((prev) => [trimmed, ...prev]);
   }
 

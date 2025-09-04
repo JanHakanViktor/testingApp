@@ -20,12 +20,15 @@ it("adds a todo", () => {
   expect(screen.getByText("Test Task")).toBeInTheDocument();
 });
 
-it("does not add empty or whitespace-only todo", () => {
+it("does not add a todo when input is empty or whitespace", () => {
   render(<TodoList />);
   const input = screen.getByLabelText(/new task/i);
   const addButton = screen.getByRole("button", { name: /add/i });
 
   fireEvent.change(input, { target: { value: "   " } });
+  fireEvent.click(addButton);
+
+  fireEvent.change(input, { target: { value: "" } });
   fireEvent.click(addButton);
 
   expect(screen.queryByText("   ")).not.toBeInTheDocument();
