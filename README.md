@@ -1,19 +1,25 @@
-# Kodbas för Enhets- och integrationstestning av React komponenter.
+# How to Run This Project
 
-## Installation
+## 1. Install dependencies
+Open a terminal in this folder and run:
 
-Kör `npm install` för att installera alla paket.
+>npm install
 
-## Utveckling
+## 2. Start the development server
+Run:
 
-Kör `npm run dev` för att starta utvecklingsservern.
+>npm run dev
 
-## Testning
+This will start the app locally. Open the URL shown in the terminal (usually http://localhost:5173).
 
-Kör `npm test` för att köra testerna. Kan köras utan att utvecklingsservern är igång.
+## 3. Run tests
+To run all tests:
 
-## Coverage
+>npm test
 
-Kör `npm run coverage` för att se hur stor del av kodbasen som testerna täcker.
+## 4. Check code coverage
+To see how much of your code is tested:
 
-Observera att det nu finns en mapp [coverage](./coverage) med en massa filer (en hemsida). Du kan starta [index.html](./coverage/index.html) filen med live server för att öppna hemsidan. Där ser du mer detaljer om vad dina tester faktiskt testar och inte.
+>npm run coverage
+
+Open the file `coverage/index.html` in your browser for a detailed coverage report.
