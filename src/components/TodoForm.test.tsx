@@ -33,5 +33,5 @@ it("does not call onAdd for empty input", () => {
   fireEvent.click(button);
 
   expect(onAdd).not.toHaveBeenCalled();
-  expect(input).toHaveValue("   "); // stays the same
+  expect(input).toHaveValue("   ");
 });
